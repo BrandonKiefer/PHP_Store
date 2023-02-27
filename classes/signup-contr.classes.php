@@ -32,7 +32,7 @@ class SignupContr {
     #regex error handler checking for alphanumeric characters in our uid
     private function invalidUid() {
         $result;
-        if (!preg_match("/^[a-zA-Z0-9]*$/")){
+        if (!preg_match("/^[a-zA-Z0-9]*$/", $this-> uid)){
             $result = false;
         }
         else {
@@ -41,4 +41,27 @@ class SignupContr {
         return $result;
     }
 
+        #checking for valid email
+        private function invalidEmail() {
+            $result;
+            if (!filter_var($this->email, FILTER_VALIDATE_EMAIL)){
+                $result = false;
+            }
+            else {
+                $result = true;
+            }
+            return $result;
+        }
+
+        #checks for matching password
+        private function pwdMatch() {
+            $result;
+            if ($this->pwd !== $this-> pwdRepeat){
+                $result = false;
+            }
+            else {
+                $result = true;
+            }
+            return $result;
+        }
 }
