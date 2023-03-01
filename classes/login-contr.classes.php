@@ -1,48 +1,25 @@
 <?php
 
-class SignupContr extends Signup {
+class LoginContr extends Login {
 
     private $uid;
     private $pwd;
-    private $pwdRepeat;
-    private $email;
+
       //constructor-- data grabbed from the user
-    public function __construct($uid, $pwd, $pwdRepeat, $email) {
+    public function __construct($uid, $pwd) {
         $this->uid = $uid;
         $this->pwd = $pwd;
-        $this->pwdRepeat = $pwdRepeat;
-        $this->email = $email;
+
     }
 
-    public function signupUser() {
+    public function loginUser() {
         if($this->emptyInput() == false) {
             //echo "Empty input!"
             header("location: ../index.php?error=emptyinput");
             exit();
         }
-        if($this->invalidUid() == false) {
-            //echo "Invalid username!"
-            header("location: ../index.php?error=username");
-            exit();   
-        }
-        if($this->invalidEmail() == false) {
-            //echo "Invalid email!"
-            header("location: ../index.php?error=email");
-            exit();   
-        }
-        if($this->pwdMatch() == false) {
-            //echo "Password don't match!"
-            header("location: ../index.php?error=passwordmatch");
-            exit();   
-        }
-        if($this->uidTakenCheck() == false) 
-        {
-            //echo "Username or email taken!"
-            header("location: ../index.php?error=usernameoremailtaken");
-            exit();   
-        }
 
-        $this->setUser($this->uid, $this->pwd, $this->email);
+        $this->getUser($this->uid, $this->pwd);
     }
 
     private function emptyInput() {
