@@ -14,14 +14,14 @@
             <h3>Brandon Kiefer</h3>
             <ul class="main-menu">
                 <li><a href="index.php">HOME</a></li>
-                <li><a href="index.php">PRODUCTS</a></li>
-                <li><a href="index.php">WORK</a></li>
-                <li><a href="index.php">MEMBERS+</a></li>
+                <li><a href="#">PRODUCTS</a></li>
+                <li><a href="#">WORK</a></li>
+                <li><a href="#">MEMBERS+</a></li>
             </ul>
         </div>
         <ul class="menu-member">
-        <li><a href="index.php">HOME</a></li>
-        <li><a href="index.php">HOME</a></li>
+        <li><a href="#">SIGNUP</a></li>
+        <li><a href="#">LOGIN</a></li>
         </ul>
     </nav>
 </header>
