@@ -1,45 +1,4 @@
-<?php
-    session_start();
-?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Object-oriented PHP login</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<header>
-    <nav>
-        <div>
-            <h3>Brandon Kiefer</h3>
-            <ul class="main-menu">
-                <li><a href="index.php">HOME</a></li>
-                <li><a href="#">PRODUCTS</a></li>
-                <li><a href="#">WORK</a></li>
-                <li><a href="#">MEMBERS+</a></li>
-            </ul>
-        </div>
-        <ul class="menu-member">
-            <?php
-                if(isset($_SESSION["userid"])){
-                    ?>
-                    <li><a href="#"><?php echo $_SESSION["useruid"]; ?></a></li>
-                    <li><a href="includes/logout.inc.php" class="header-login-a">LOGOUT</a></li>
-                    <?php
-                }else{
-                    ?>
-                        <li><a href="#">SIGNUP</a></li>
-                        <li><a href="#">LOGIN</a></li>
-                    <?php
-                }
-            ?>
-        </ul>
-    </nav>
-</header>
+<?php require_once "header.php" ?>
 
 <section class="index-intro">
     <div class="index intro-bg">
@@ -55,33 +14,7 @@
     </div>
 </section>
 
-<section class="index-login">
-    <div class="wrapper">
-        <div class="index-login-signup">
-            <h4>SIGN UP</h4>
-            <p>Don't have an account yet? Sign up here!</p>
-            <form action="includes/signup.inc.php" method="post">
-                <input type="text" name="uid" placeholder="Username">
-                <input type="password" name="pwd" placeholder="Password">
-                <input type="password" name="pwdRepeat" placeholder="Repeat Password">
-                <input type="text" name="email" placeholder="E-mail">
-                <br>
-                <button type="submit" name="submit">SIGN UP</button>
-            </form>
-        </div>
 
-        <div class="index-login-login">
-        <h4>LOGIN</h4>
-        <p>Don't have an account yet? Sign up here!</p>
-        <form action="includes/login.inc.php" method="post">
-            <input type="text" name="uid" placeholder="Username">
-            <input type="password" name="pwd" placeholder="Password">
-            <br>
-            <button type="submit" name="submit">LOGIN</button>
-        </form>
-        </div>
-    </div>
-</section>
 
 </body>
 </html>

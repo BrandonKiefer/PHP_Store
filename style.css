@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.menu-links h3 {
+    margin: 0;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main-menu,
+.menu-member {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.main-menu a,
+.menu-member a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.main-menu a:hover,
+.menu-member a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.header-login-a {
+    color: #007BFF;
+    background-color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.header-login-a:hover {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+nav {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+
+.main-menu {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.menu-member {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+.menu-member {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+/* login component */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.index-login-login {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.index-login-login h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.index-login-login p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.index-login-login form {
+    display: flex;
+    flex-direction: column;
+}
+
+.index-login-login input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.index-login-login input:focus {
+    border-color: #007BFF;
+}
+
+.index-login-login button {
+    background-color: #2cd19a;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.index-login-login button:hover {
+    background-color: #0098b3;
+}
+
+.header-login-a {
+    color: #007BFF;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.header-login-a:hover {
+    background-color: #e9ecef;
+}
+
+/* registration */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.index-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+
+.index-login-signup {
+    max-width: 400px;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.index-login-signup h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.index-login-signup p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.index-login-signup form {
+    display: flex;
+    flex-direction: column;
+}
+
+.index-login-signup input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.index-login-signup input:focus {
+    border-color: #007BFF;
+}
+
+.index-login-signup button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.index-login-signup button:hover {
+    background-color: #0056b3;
+}
