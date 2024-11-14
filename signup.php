@@ -3,9 +3,9 @@
 require_once "header.php"
 ?>
 
-<section class="index-login">
+<section class="index-signup">
     <div class="wrapper">
-        <div class="index-login-signup">
+        <div class="index-signup">
             <h4>SIGN UP</h4>
             <p>Don't have an account yet? Sign up here!</p>
             <form action="includes/signup.inc.php" method="post">

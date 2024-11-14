@@ -28,6 +28,16 @@ nav {
     padding: 10px 20px;
 }
 
+p{
+    text-indent: 30px;
+}
+
+div.index-intro-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .menu-links h3 {
     margin: 0;
     color: #fff;
@@ -183,72 +193,67 @@ body {
 
 /* registration */
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f7f7f7;
-}
-
 .wrapper {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 50px auto;
     padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
-.index-login {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: #f7f7f7;
-}
-
-.index-login-signup {
-    max-width: 400px;
-    padding: 40px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.index-login-signup h4 {
-    text-align: center;
+/* Sign Up Header Styling */
+.index-signup h4 {
+    font-size: 24px;
     margin-bottom: 20px;
+    color: #333;
 }
 
-.index-login-signup p {
-    text-align: center;
-    margin-bottom: 30px;
+.index-signup p {
+    margin-bottom: 20px;
+    color: #777;
 }
 
-.index-login-signup form {
+/* Form Styling */
+.index-signup form {
     display: flex;
     flex-direction: column;
 }
 
-.index-login-signup input {
-    padding: 10px;
+.index-signup input {
+    padding: 12px;
     margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-size: 14px;
     outline: none;
-    transition: border-color 0.3s;
+    transition: border 0.3s;
 }
 
-.index-login-signup input:focus {
-    border-color: #007BFF;
+.index-signup input:focus {
+    border-color: #0099cc;
 }
 
-.index-login-signup button {
-    background-color: #007BFF;
-    color: white;
-    padding: 10px;
+.index-signup button {
+    padding: 12px;
+    background-color: #0099cc;
+    color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
+    font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
-.index-login-signup button:hover {
-    background-color: #0056b3;
+.index-signup button:hover {
+    background-color: #0077a3;
 }
+
+/*Youtube video */
+iframe#youtube {
+    width: 100%; /* make the video responsive */
+    max-width: 560px; /* set a max-width to keep the video from getting too large */
+    height: 315px;
+    margin-bottom: 20px; /* add some spacing */
+    border: 5px solid #997d99; /* reduce the border size for a cleaner look */
+  }

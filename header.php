@@ -15,10 +15,10 @@
 <header>
     <nav>
         <div class="menu-links">
-            <h3>Brandon Kiefer</h3>
+            <h3>Kiefer Studios</h3>
             <ul class="main-menu">
                 <li><a href="index.php">HOME</a></li>
-                <li><a href="#">PRODUCTS</a></li>
+                <li><a href="products.php">PRODUCTS</a></li>
                 <li><a href="#">WORK</a></li>
                 <li><a href="#">MEMBERS+</a></li>
             </ul>
