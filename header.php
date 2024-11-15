@@ -18,7 +18,16 @@
             <h3>Kiefer Studios</h3>
             <ul class="main-menu">
                 <li><a href="index.php">HOME</a></li>
-                <li><a href="products.php">PRODUCTS</a></li>
+                <div class="dropdown">
+                <li><a href="products.php">Artwork</a></button>
+                <div class="dropdown-content">
+    <a href="#">Glass</a>
+    <a href="#">Ceramics</a>
+    <a href="#">Photography</a>
+    <a href="#">Multimedia</a>
+  </div>
+</div>
+            </li>
                 <li><a href="#">WORK</a></li>
                 <li><a href="#">MEMBERS+</a></li>
             </ul>
