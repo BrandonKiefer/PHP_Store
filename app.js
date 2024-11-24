@@ -55,5 +55,33 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Initial display
     updateSakeGallery(currentSakeImageIndex);
+
+    /*Ancient vase --No Justice */
+    const justiceContainer = document.querySelector('.justice-container');
+    const justiceImages = justiceContainer.querySelectorAll('.gallery-image');
+    const leftArrow3 = justiceContainer.querySelector('.left-arrow');
+    const rightArrow3 = justiceContainer.querySelector('.right-arrow');
+
+    let currentJusticeImageIndex = 0;
+
+    function updateJusticeGallery(index) {
+        justiceImages.forEach((item, i) => {
+            item.style.display = i === index ? 'block' : 'none';
+        });
+    }
+
+    function toggleJusticeImage(direction) {
+        currentJusticeImageIndex =
+            direction === 'left'
+                ? (currentJusticeImageIndex - 1 + justiceImages.length) % justiceImages.length
+                : (currentJusticeImageIndex + 1) % justiceImages.length;
+        updateJusticeGallery(currentJusticeImageIndex);
+    }
+
+    leftArrow3.addEventListener('click', () => toggleJusticeImage('left'));
+    rightArrow3.addEventListener('click', () => toggleJusticeImage('right'));
+
+    // Initial display
+    updateJusticeGallery(currentJusticeImageIndex);
     
 });
