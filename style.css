@@ -275,3 +275,128 @@ iframe#youtube {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+
+/*Image gallery*/
+
+div.gallery-image {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery-image:hover {
+  border: 1px solid #777;
+}
+
+div.gallery-image img {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/* Candle Lantern styling */
+.candle-lantern-container {
+    width: 196px; /* Match the width of the images */
+    position: relative; /* Enables absolute positioning for arrows */
+    display: inline-block;
+    justify-content: center; /* Keep content horizontally centered */
+    align-items: center; /* Align items vertically */
+    float: left;
+}
+
+.candle-lantern-container .gallery-image {
+    display: none;
+    position: relative;
+    text-align: center; /* Optional for better layout */
+}
+
+.candle-lantern-container .gallery-image:first-of-type {
+    display: block;
+}
+
+.candle-lantern-container .gallery-image-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: #fff;
+    text-shadow: 0 0 3px #000;
+    cursor: pointer;
+    user-select: none;
+    z-index: 1000; /* Keeps arrows above other content */
+    background-color: rgba(0, 0, 0, 0.5); /* Optional for better visibility */
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.candle-lantern-container .left-arrow {
+    left: 10px; /* Bring arrow closer to the left edge of the image */
+}
+
+.candle-lantern-container .right-arrow {
+    right: 10px; /* Bring arrow closer to the right edge of the image */
+}
+
+.candle-lantern-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Sake bottle styling */
+
+.sake-bottle-container {
+    width: 196px; /* Match the width of the images */
+    position: relative; /* Enables absolute positioning for arrows */
+    display: inline-block;
+    justify-content: center; /* Keep content horizontally centered */
+    align-items: center; /* Align items vertically */
+    float: left;
+}
+
+.sake-bottle-container .gallery-image {
+    display: none;
+    position: relative;
+    text-align: center; /* Optional for better layout */
+}
+
+.sake-bottle-container .gallery-image:first-of-type {
+    display: block;
+}
+
+.sake-bottle-container .gallery-image-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: #fff;
+    text-shadow: 0 0 3px #000;
+    cursor: pointer;
+    user-select: none;
+    z-index: 1000; /* Keeps arrows above other content */
+    background-color: rgba(0, 0, 0, 0.5); /* Optional for better visibility */
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.sake-bottle-container .left-arrow {
+    left: 10px; /* Bring arrow closer to the left edge of the image */
+}
+
+.sake-bottle-container .right-arrow {
+    right: 10px; /* Bring arrow closer to the right edge of the image */
+}
+
+.sake-bottle-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}

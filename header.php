@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Object-oriented PHP login</title>
     <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
 </head>
 <body>
 <header>
@@ -21,7 +22,7 @@
                 <div class="dropdown">
                 <li><a href="products.php">Artwork</a></button>
                 <div class="dropdown-content">
-    <a href="#">Glass</a>
+    <a href="glass.php">Glass</a>
     <a href="#">Ceramics</a>
     <a href="#">Photography</a>
     <a href="#">Multimedia</a>
@@ -43,6 +44,7 @@
                     ?>
                         <li><a href="signup.php">SIGNUP</a></li>
                         <li><a href="login.php">LOGIN</a></li>
+                   
                     <?php
                 }
             ?>

@@ -7,8 +7,8 @@
                 <h2>Brandon Kiefer<br>Berkeley, CA</h2>
             </div>
             <div class="index-intro-1">
-                <p style="margin-top: 5px">Hi there, my name is Brandon and I live in the San Francisco Bay Area. I'm an artist, writer, software engineer, and producer. If you take a look at my resume here, you'll discover a wide array of skills and experience demonstrating my agilitiy and love for learning new things.
-             But don't just take my word for it- let's hear from legendary professional wrestling announcer and WWE Hall of Famer, the late great "Mean Gene" Okerlund..</p></br>
+                <p style="margin-top: 5px">Hi there, my name is Brandon and I live in the San Francisco Bay Area. I'm an artist, writer, software engineer, and producer. If you take a look at my resume here, you'll discover a wide array of skills and experiences demonstrating my agility and love for learning new things. 
+             But don't just take my word for it- let's hear from legendary professional wrestling announcer and WWE Hall of Famer, the late great "Mean" Gene Okerlund..</p></br>
                 <iframe id="youtube" width="560" height="315" src="https://www.youtube.com/embed/DjcHi41Cuz0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </br>
 <p>On this site you'll find the body of my art portfolio containing images of work in ceramics, glass, photography composition, graphic design, video production, and more. If you want to check out my web applications, you can visit my software engineer portfolio over at: <a href="https://www.brandonkiefer.net">https://www.brandonkiefer.net</a></p> </br>
