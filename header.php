@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Object-oriented PHP login</title>
+    <title>Kiefer Studios</title>
     <link rel="stylesheet" href="style.css">
     <script src="app.js"></script>
 </head>
@@ -25,7 +25,7 @@
     <a href="glass.php">Glass</a>
     <a href="#">Ceramics</a>
     <a href="#">Photography</a>
-    <a href="#">Multimedia</a>
+    <a href="video.php">Video</a>
   </div>
 </div>
             </li>

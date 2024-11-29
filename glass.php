@@ -1,16 +1,16 @@
 <?php require_once "header.php" ?>
 <div class="image-gallery">
     <div class="gallery-image">
-        <a target="_blank" href="/OOPPHPLogin - Copy/public/Images/blue_beaker.jpg">
-            <img src="/OOPPHPLogin - Copy/public/Images/blue_beaker.jpg" alt="Blue flask" width="600" height="400">
+        <a target="_blank" href="/public/Images/glass/blue_beaker.jpg">
+            <img src="/public/Images/glass/blue_beaker.jpg" alt="Blue flask" width="600" height="400">
         </a>
         <div class="title">Blue Flask</div>
         <div class="desc">Glass blown form of a science flask or beaker.</div>
     </div>
 
     <div class="gallery-image">
-        <a target="_blank" href="/OOPPHPLogin - Copy/public/Images/blue_beetle.jpg">
-            <img src="/OOPPHPLogin - Copy/public/Images/blue_beetle.jpg" alt="Blue beetle" width="600" height="400">
+        <a target="_blank" href="/public/Images/glass/blue_beetle.jpg">
+            <img src="/public/Images/glass/blue_beetle.jpg" alt="Blue beetle" width="600" height="400">
         </a>
         <div class="title">Blue Beetle</div>
         <div class="desc">Glass blown piece of a familiar form that appears other worldly.</div>
@@ -24,44 +24,44 @@
         <div class="gallery-image">
 
 
-            <a target="_blank" href="/OOPPHPLogin - Copy/public/Images/candleholder1_crop.jpg">
-                <img src="/OOPPHPLogin - Copy/public/Images/candleholder1_crop.jpg" alt="Candle Lantern - back" width="600" height="400">
+            <a target="_blank" href="/public/Images/glass/candleholder1_crop.jpg">
+                <img src="/public/Images/glass/candleholder1_crop.jpg" alt="Candle Lantern - back" width="600" height="400">
             </a>
 
             <div class="title">Candle Lantern</div>
-            <div class="desc">Ceramic piece, coil built. </div>
+            <div class="desc">Ceramic piece, coil built. Portable light source.</div>
 
         </div>
 
         <div class="gallery-image">
 
-            <a target="_blank" href="/OOPPHPLogin - Copy/public/Images/candleholder2_crop.jpg">
-                <img src="/OOPPHPLogin - Copy/public/Images/candleholder2_crop.jpg" alt="Candle Lantern - front" width="600" height="400">
+            <a target="_blank" href="/public/Images/glass/candleholder2_crop.jpg">
+                <img src="/public/Images/glass/candleholder2_crop.jpg" alt="Candle Lantern - front" width="600" height="400">
             </a>
             <div class="title">Candle Lantern</div>
-            <div class="desc">Ceramic piece, coil built. </div>
+            <div class="desc">Ceramic piece, coil built. Portable light source.</div>
         </div>
     </div>
 
     <div class="gallery-image">
-        <a target="_blank" href="/OOPPHPLogin - Copy/public/Images/gaia_crop.jpg">
-            <img src="/OOPPHPLogin - Copy/public/Images/gaia_crop.jpg" alt="Gaia" width="600" height="400">
+        <a target="_blank" href="/public/Images/glass/gaia_crop.jpg">
+            <img src="/public/Images/glass/gaia_crop.jpg" alt="Gaia" width="600" height="400">
         </a>
         <div class="title">Gaia</div>
-        <div class="desc">Glass blown form using a triple color overlay and sandblasted design. Read more about it here.</div>
+        <div class="desc">Glass blown form w/ triple color overlay and sandblasted design. Read more about it here.</div>
     </div>
 
     <div class="gallery-image">
-        <a target="_blank" href="/OOPPHPLogin - Copy/public/Images/goblet_crop.jpg">
-            <img src="/OOPPHPLogin - Copy/public/Images/goblet_crop.jpg" alt="Goblet" width="600" height="400">
+        <a target="_blank" href="/public/Images/glass/goblet_crop.jpg">
+            <img src="/public/Images/glass/goblet_crop.jpg" alt="Goblet" width="600" height="400">
         </a>
         <div class="title">Goblet</div>
-        <div class="desc">Glass blown piece of a familiar form that appears other worldly.</div>
+        <div class="desc">Glass blown w/ stone mold. Cheers to the re-emergence of hidden fellows... </div>
     </div>
 
     <div class="gallery-image">
-        <a target="_blank" href="/OOPPHPLogin - Copy/public/Images/flower_vase_crop.jpg">
-            <img src="/OOPPHPLogin - Copy/public/Images/flower_vase_crop.jpg" alt="Flower Vase" width="600" height="400">
+        <a target="_blank" href="/public/Images/glass/flower_vase_crop.jpg">
+            <img src="/public/Images/glass/flower_vase_crop.jpg" alt="Flower Vase" width="600" height="400">
         </a>
         <div class="title">Flower Vase</div>
         <div class="desc">Glass blown piece of a familiar form that appears other worldly.</div>
@@ -75,64 +75,64 @@
         <div class="gallery-image">
 
 
-            <a target="_blank" href="/OOPPHPLogin - Copy/public/Images/sake_bottle_crop.jpg">
-                <img src="/OOPPHPLogin - Copy/public/Images/sake_bottle_crop.jpg" alt="Sake Bottle - back" width="600" height="400">
+            <a target="_blank" href="/public/Images/glass/sake_bottle_crop.jpg">
+                <img src="/public/Images/glass/sake_bottle_crop.jpg" alt="Sake Bottle - back" width="600" height="400">
             </a>
 
             <div class="title">Sake Bottle</div>
-            <div class="desc">Ceramic piece, coil built. </div>
+            <div class="desc">Glass blown bottle form, holds fermented rice.</div>
 
         </div>
 
         <div class="gallery-image">
 
-            <a target="_blank" href="/OOPPHPLogin - Copy/public/Images/sake_bottle2_crop.jpg">
-                <img src="/OOPPHPLogin - Copy/public/Images/sake_bottle2_crop.jpg" alt="Sake Bottle - front" width="600" height="400">
+            <a target="_blank" href="/public/Images/glass/sake_bottle2_crop.jpg">
+                <img src="/public/Images/glass/sake_bottle2_crop.jpg" alt="Sake Bottle - front" width="600" height="400">
             </a>
             <div class="title">Sake Bottle</div>
-            <div class="desc">Glass blown bottle form. </div>
+            <div class="desc">Glass blown bottle form, holds fermented rice.</div>
         </div>
     </div>
     <!-- End of Sake Bottle Group -->
 
     <div class="gallery-image">
-        <a target="_blank" href="/OOPPHPLogin - Copy/public/Images/ornament_crop.jpg">
-            <img src="/OOPPHPLogin - Copy/public/Images/ornament_crop.jpg" alt="Ornament" width="600" height="400">
+        <a target="_blank" href="/public/Images/glass/ornament_crop.jpg">
+            <img src="/public/Images/glass/ornament_crop.jpg" alt="Ornament" width="600" height="400">
         </a>
         <div class="title">Ornament</div>
-        <div class="desc">Glass blown piece.</div>
+        <div class="desc">Glass blown piece. To be hung on a festive tree.</div>
     </div>
 
     <div class="gallery-image">
-        <a target="_blank" href="/OOPPHPLogin - Copy/public/Images/lava_vase_crop.jpg">
-            <img src="/OOPPHPLogin - Copy/public/Images/lava_vase_crop.jpg" alt="Lava Vase" width="600" height="400">
+        <a target="_blank" href="/public/Images/glass/lava_vase_crop.jpg">
+            <img src="/public/Images/glass/lava_vase_crop.jpg" alt="Lava Vase" width="600" height="400">
         </a>
         <div class="title">Lava Vase</div>
-        <div class="desc">Glass blown piece.</div>
+        <div class="desc">Glass blown piece. Magmatic in nature.</div>
     </div>
 
     <div class="gallery-image">
-        <a target="_blank" href="/OOPPHPLogin - Copy/public/Images/france_crop.jpg">
-            <img src="/OOPPHPLogin - Copy/public/Images/france_crop.jpg" alt="France" width="600" height="400">
+        <a target="_blank" href="/public/Images/glass/france_crop.jpg">
+            <img src="/public/Images/glass/france_crop.jpg" alt="France" width="600" height="400">
         </a>
-        <div class="title">France</div>
-        <div class="desc">Glass blown piece.</div>
+        <div class="title">le Tricolore</div>
+        <div class="desc">Glass blown Encalmo piece celebrating liberty, equality, and brotherhood.</div>
     </div>
 
     <div class="gallery-image">
-        <a target="_blank" href="/OOPPHPLogin - Copy/public/Images/caroline.jpg">
-            <img src="/OOPPHPLogin - Copy/public/Images/caroline.jpg" alt="Caroline" width="600" height="400">
+        <a target="_blank" href="/public/Images/glass/caroline.jpg">
+            <img src="/public/Images/glass/caroline.jpg" alt="Caroline" width="600" height="400">
         </a>
         <div class="title">Caroline</div>
-        <div class="desc">Glass blown piece.</div>
+        <div class="desc">Glass blown piece. Sandblasted design. Medusa inspired.</div>
     </div>
 
     <div class="gallery-image">
-        <a target="_blank" href="/OOPPHPLogin - Copy/public/Images/local_legend_crop.jpg">
-            <img src="/OOPPHPLogin - Copy/public/Images/local_legend_crop.jpg" alt="Local Legend" width="600" height="400">
+        <a target="_blank" href="/public/Images/glass/local_legend_crop.jpg">
+            <img src="/public/Images/glass/local_legend_crop.jpg" alt="Local Legend" width="600" height="400">
         </a>
         <div class="title">Local Legend</div>
-        <div class="desc">Glass blown piece.</div>
+        <div class="desc">Ceramic sculpture. Kiln-fired stone clay. Read more about it here. </div>
     </div>
 
 <!-- No Justice Group -->
@@ -143,36 +143,46 @@
         <div class="gallery-image">
 
 
-            <a target="_blank" href="/OOPPHPLogin - Copy/public/Images/no_justice_for_all_1_crop.jpg">
-                <img src="/OOPPHPLogin - Copy/public/Images/no_justice_for_all_1_crop.jpg" alt="No Justice - back" width="600" height="400">
+            <a target="_blank" href="/public/Images/glass/no_justice_for_all_1_crop.jpg">
+                <img src="/public/Images/glass/no_justice_for_all_1_crop.jpg" alt="No Justice - back" width="600" height="400">
             </a>
 
             <div class="title">No Justice for All...</div>
-            <div class="desc">Ceramic piece, coil built. </div>
+            <div class="desc">Ceramic piece, ancient water jug form. History repeats itself.</div>
 
         </div>
 
         <div class="gallery-image">
 
-            <a target="_blank" href="/OOPPHPLogin - Copy/public/Images/no_justice_for_all_2_crop.jpg">
-                <img src="/OOPPHPLogin - Copy/public/Images/no_justice_for_all_2_crop.jpg" alt="No Justice - front" width="600" height="400">
+            <a target="_blank" href="/public/Images/glass/no_justice_for_all_2_crop.jpg">
+                <img src="/public/Images/glass/no_justice_for_all_2_crop.jpg" alt="No Justice - front" width="600" height="400">
             </a>
             <div class="title">No Justice for All...</div>
-            <div class="desc">Glass blown bottle form. </div>
+            <div class="desc">Ceramic piece, ancient water jug form. History repeats itself.</div>
         </div>
+
+        <div class="gallery-image">
+
+<a target="_blank" href="/public/Images/glass/no_justice_for_all_3_crop.jpg">
+    <img src="/public/Images/glass/no_justice_for_all_3_crop.jpg" alt="No Justice - front" width="600" height="400">
+</a>
+<div class="title">No Justice for All...</div>
+<div class="desc">Ceramic piece, ancient water jug form. History repeats itself.</div>
+</div>
+
     </div>
 
     <div class="gallery-image">
-        <a target="_blank" href="/OOPPHPLogin - Copy/public/Images/mountains_coaster_crop.jpg">
-            <img src="/OOPPHPLogin - Copy/public/Images/mountains_coaster_crop.jpg" alt="" width="600" height="400">
+        <a target="_blank" href="/public/Images/glass/mountains_coaster_crop.jpg">
+            <img src="/public/Images/glass/mountains_coaster_crop.jpg" alt="" width="600" height="400">
         </a>
         <div class="title">Mountain Coaster</div>
-        <div class="desc">Kiln-formed glass piece</div>
+        <div class="desc">Kiln-formed glass slumped piece.</div>
     </div>
 
     <div class="gallery-image">
-        <a target="_blank" href="/OOPPHPLogin - Copy/public/Images/rufus_tile_crop.jpg">
-            <img src="/OOPPHPLogin - Copy/public/Images/rufus_tile_crop.jpg" alt="Rufus" width="600" height="400">
+        <a target="_blank" href="/public/Images/glass/rufus_tile_crop.jpg">
+            <img src="/public/Images/glass/rufus_tile_crop.jpg" alt="Rufus" width="600" height="400">
         </a>
         <div class="title">Rufus</div>
         <div class="desc">Kiln-formed glass piece</div>

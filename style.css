@@ -7,16 +7,21 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f7f7f7;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 header {
-    background-color: #333;
+    background-color: black;
     color: #fff;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     position: sticky;
     top: 0;
-    z-index: 1000;
+    z-index: 5;
+    margin: 0px;
+    width: auto;
 }
 
 nav {
@@ -28,11 +33,11 @@ nav {
     padding: 10px 20px;
 }
 
-p{
+p {
     text-indent: 30px;
 }
 
-div.index-intro-1{
+div.index-intro-1 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -51,7 +56,6 @@ div.index-intro-1{
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 20px;
 }
 
 .main-menu a,
@@ -85,7 +89,7 @@ div.index-intro-1{
 header {
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    margin: 0px;
 }
 
 nav {
@@ -93,6 +97,9 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 
@@ -116,7 +123,7 @@ nav {
     gap: 10px;
 }
 
-li{
+li {
     list-style-type: none;
 }
 
@@ -133,7 +140,7 @@ body {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .index-login-login h4 {
@@ -251,14 +258,18 @@ body {
 
 /*Youtube video */
 iframe#youtube {
-    width: 100%; /* make the video responsive */
-    max-width: 560px; /* set a max-width to keep the video from getting too large */
+    width: 100%;
+    /* make the video responsive */
+    max-width: 560px;
+    /* set a max-width to keep the video from getting too large */
     height: 315px;
-    margin-bottom: 20px; /* add some spacing */
-    border: 5px solid #997d99; /* reduce the border size for a cleaner look */
-  }
+    margin-bottom: 20px;
+    /* add some spacing */
+    border: 5px solid #997d99;
+    /* reduce the border size for a cleaner look */
+}
 
-  /* Dropdown Content (Hidden by Default) */
+/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -266,56 +277,89 @@ iframe#youtube {
     background-color: grey;
     flex-direction: column;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-  }
+}
 
-  /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: flex; flex-direction: column;}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
 
+/*Image Gallery container*/
+div.image-gallery {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    align-items: center;
+    margin: auto;
+}
 
-
-/*Image gallery*/
+/*Gallery Images*/
 
 div.gallery-image {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #997d99;
+
 }
 
 div.gallery-image:hover {
-  border: 1px solid #777;
+    border: 1px solid #777;
+    background-color: #bd9ebd;
+
+    div.title {
+        color: white;
+    }
 }
 
 div.gallery-image img {
-  width: 100%;
-  height: auto;
-  float: left;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+div.title {
+    font-style: oblique;
+    font-weight: bold;
 }
 
 div.desc {
-  padding: 15px;
-  text-align: center;
+    padding: 15px;
+    text-align: center;
 }
 
 /* Candle Lantern styling */
 .candle-lantern-container {
-    width: 196px; /* Match the width of the images */
-    position: relative; /* Enables absolute positioning for arrows */
+    width: auto;
+    /* Match the width of the images */
+    position: relative;
+    /* Enables absolute positioning for arrows */
     display: inline-block;
-    justify-content: center; /* Keep content horizontally centered */
-    align-items: center; /* Align items vertically */
+    justify-content: center;
+    /* Keep content horizontally centered */
+    align-items: center;
+    /* Align items vertically */
     float: left;
 }
 
 .candle-lantern-container .gallery-image {
     display: none;
     position: relative;
-    text-align: center; /* Optional for better layout */
+    text-align: center;
+    /* Optional for better layout */
 }
 
 .candle-lantern-container .gallery-image:first-of-type {
@@ -331,18 +375,22 @@ div.desc {
     text-shadow: 0 0 3px #000;
     cursor: pointer;
     user-select: none;
-    z-index: 1000; /* Keeps arrows above other content */
-    background-color: rgba(0, 0, 0, 0.5); /* Optional for better visibility */
+    z-index: 3;
+    /* Keeps arrows above other content */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Optional for better visibility */
     padding: 10px;
     border-radius: 50%;
 }
 
 .candle-lantern-container .left-arrow {
-    left: 10px; /* Bring arrow closer to the left edge of the image */
+    left: 10px;
+    /* Bring arrow closer to the left edge of the image */
 }
 
 .candle-lantern-container .right-arrow {
-    right: 10px; /* Bring arrow closer to the right edge of the image */
+    right: 10px;
+    /* Bring arrow closer to the right edge of the image */
 }
 
 .candle-lantern-container img {
@@ -354,18 +402,23 @@ div.desc {
 /* Sake bottle styling */
 
 .sake-bottle-container {
-    width: 196px; /* Match the width of the images */
-    position: relative; /* Enables absolute positioning for arrows */
+    width: auto;
+    /* Match the width of the images */
+    position: relative;
+    /* Enables absolute positioning for arrows */
     display: inline-block;
-    justify-content: center; /* Keep content horizontally centered */
-    align-items: center; /* Align items vertically */
+    justify-content: center;
+    /* Keep content horizontally centered */
+    align-items: center;
+    /* Align items vertically */
     float: left;
 }
 
 .sake-bottle-container .gallery-image {
     display: none;
     position: relative;
-    text-align: center; /* Optional for better layout */
+    text-align: center;
+    /* Optional for better layout */
 }
 
 .sake-bottle-container .gallery-image:first-of-type {
@@ -381,18 +434,22 @@ div.desc {
     text-shadow: 0 0 3px #000;
     cursor: pointer;
     user-select: none;
-    z-index: 1000; /* Keeps arrows above other content */
-    background-color: rgba(0, 0, 0, 0.5); /* Optional for better visibility */
+    z-index: 3;
+    /* Keeps arrows above other content */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Optional for better visibility */
     padding: 10px;
     border-radius: 50%;
 }
 
 .sake-bottle-container .left-arrow {
-    left: 10px; /* Bring arrow closer to the left edge of the image */
+    left: 10px;
+    /* Bring arrow closer to the left edge of the image */
 }
 
 .sake-bottle-container .right-arrow {
-    right: 10px; /* Bring arrow closer to the right edge of the image */
+    right: 10px;
+    /* Bring arrow closer to the right edge of the image */
 }
 
 .sake-bottle-container img {
@@ -404,18 +461,23 @@ div.desc {
 /*Ancient water jug styling */
 
 .justice-container {
-    width: 196px; /* Match the width of the images */
-    position: relative; /* Enables absolute positioning for arrows */
+    width: auto;
+    /* Match the width of the images */
+    position: relative;
+    /* Enables absolute positioning for arrows */
     display: inline-block;
-    justify-content: center; /* Keep content horizontally centered */
-    align-items: center; /* Align items vertically */
+    justify-content: center;
+    /* Keep content horizontally centered */
+    align-items: center;
+    /* Align items vertically */
     float: left;
 }
 
 .justice-container .gallery-image {
     display: none;
     position: relative;
-    text-align: center; /* Optional for better layout */
+    text-align: center;
+    /* Optional for better layout */
 }
 
 .justice-container .gallery-image:first-of-type {
@@ -431,22 +493,128 @@ div.desc {
     text-shadow: 0 0 3px #000;
     cursor: pointer;
     user-select: none;
-    z-index: 1000; /* Keeps arrows above other content */
-    background-color: rgba(0, 0, 0, 0.5); /* Optional for better visibility */
+    z-index: 3;
+    /* Keeps arrows above other content */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Optional for better visibility */
     padding: 10px;
     border-radius: 50%;
 }
 
 .justice-container .left-arrow {
-    left: 10px; /* Bring arrow closer to the left edge of the image */
+    left: 10px;
+    /* Bring arrow closer to the left edge of the image */
 }
 
 .justice-container .right-arrow {
-    right: 10px; /* Bring arrow closer to the right edge of the image */
+    right: 10px;
+    /* Bring arrow closer to the right edge of the image */
 }
 
 .justice-container img {
     width: 100%;
     height: auto;
     display: block;
+}
+
+/*Video Container*/
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/*Media Queries */
+
+@media screen and (min-width: 480px) {
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        /* background-image: url("\public/Images/libre_xpression_background.jpg");
+        background-size: 100%; */
+        background-image: linear-gradient(to bottom right, black, rgb(32, 29, 37), rgb(130, 116, 168), rgb(158, 130, 204), rgb(8, 41, 51));
+
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    } 
+
+
+    div.image-gallery {
+        display: flex;
+        flex-direction: row;
+        width: 964px;
+        height: auto;
+        align-items: flex-start;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+
+    div.gallery-image {
+        margin: 5px;
+        margin-top: 25px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 180px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #997d99;
+        height: 308px;
+    }
+
+    div.desc {
+        padding: 11px;
+        text-align: center;
+    }
+
+    .candle-lantern-container {
+        width: 196px;
+        /* Match the width of the images */
+        position: relative;
+        /* Enables absolute positioning for arrows */
+        display: inline-block;
+        justify-content: center;
+        /* Keep content horizontally centered */
+        align-items: center;
+        /* Align items vertically */
+        float: left;
+    }
+
+    .justice-container {
+        width: 196px;
+        /* Match the width of the images */
+        position: relative;
+        /* Enables absolute positioning for arrows */
+        display: inline-block;
+        justify-content: center;
+        /* Keep content horizontally centered */
+        align-items: center;
+        /* Align items vertically */
+        float: left;
+    }
+
+    .sake-bottle-container {
+        width: 196px;
+        /* Match the width of the images */
+        position: relative;
+        /* Enables absolute positioning for arrows */
+        display: inline-block;
+        justify-content: center;
+        /* Keep content horizontally centered */
+        align-items: center;
+        /* Align items vertically */
+        float: left;
+    }
+
+    .menu-member{
+        gap: 20px;
+    }
 }
