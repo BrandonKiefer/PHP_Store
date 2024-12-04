@@ -3,13 +3,31 @@
 }
 
 
+a.site-links{
+    list-style-type: none;
+    color: black;
+    font-weight: 900;
+}
+
+a.site-links:hover{
+    color: white
+}
+
+a.site-links:active {
+    font-size: larger;
+}
+
+a.site-links:visited {
+    font-weight: normal;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: black;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 
@@ -517,6 +535,15 @@ div.desc {
     display: block;
 }
 
+/*Legend & Gaia Containers*/
+.bearer-image, .gaia-images {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 /*Video Container*/
 
 .video-container {
@@ -525,6 +552,20 @@ div.desc {
     align-items: center;
 }
 
+/*Email message container*/
+span.email {
+    border: 4px black dashed;
+    padding: 20px;
+    border-radius: 16px;
+    background-color: palegoldenrod;
+    display: flex;
+    font-size: larger;
+;
+}
+
+span.email#Bearer{
+background-color: #997d99;
+}
 
 
 /*Media Queries */
@@ -535,10 +576,8 @@ div.desc {
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
-        /* background-image: url("\public/Images/libre_xpression_background.jpg");
-        background-size: 100%; */
-        background-image: linear-gradient(to bottom right, black, rgb(32, 29, 37), rgb(130, 116, 168), rgb(158, 130, 204), rgb(8, 41, 51));
-
+        background-image: url("/public/Images/background/libre_xpression_background_color04.jpg");
+        background-size: 100%; 
         background-repeat: no-repeat;
         background-attachment: fixed;
         display: flex;
@@ -550,11 +589,12 @@ div.desc {
     div.image-gallery {
         display: flex;
         flex-direction: row;
-        width: 964px;
+        max-width: 964px;
         height: auto;
         align-items: flex-start;
         margin: auto;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     div.gallery-image {
@@ -616,5 +656,13 @@ div.desc {
 
     .menu-member{
         gap: 20px;
+    }
+
+    .justice-images{
+            display: flex;
+            flex-direction: column;
+                    flex-wrap:wrap;
+                    
+    
     }
 }

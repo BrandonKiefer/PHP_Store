@@ -9,11 +9,11 @@
     </div>
 
     <div class="gallery-image">
-        <a target="_blank" href="/public/Images/glass/blue_beetle.jpg">
-            <img src="/public/Images/glass/blue_beetle.jpg" alt="Blue beetle" width="600" height="400">
+        <a target="_blank" href="/public/Images/glass/blue_teardrop.jpg">
+            <img src="/public/Images/glass/blue_teardrop.jpg" alt="Blue Ovoid" width="600" height="400">
         </a>
-        <div class="title">Blue Beetle</div>
-        <div class="desc">Glass blown piece of a familiar form that appears other worldly.</div>
+        <div class="title">Blue Teardrop</div>
+        <div class="desc">Glass blown piece that appears other worldly but also somehow familiar.</div>
     </div>
 
     <!-- Candle Lantern Group -->
@@ -47,8 +47,8 @@
         <a target="_blank" href="/public/Images/glass/gaia_crop.jpg">
             <img src="/public/Images/glass/gaia_crop.jpg" alt="Gaia" width="600" height="400">
         </a>
-        <div class="title">Gaia</div>
-        <div class="desc">Glass blown form w/ triple color overlay and sandblasted design. Read more about it here.</div>
+        <div class="title">Gaia (Crying Woman)</div>
+        <div class="desc">Glass blown form w/ triple color overlay and sandblasted design. Read more about it <a class="site-links" href="gaia.php">here</a>.</div>
     </div>
 
     <div class="gallery-image">
@@ -121,9 +121,9 @@
 
     <div class="gallery-image">
         <a target="_blank" href="/public/Images/glass/caroline.jpg">
-            <img src="/public/Images/glass/caroline.jpg" alt="Caroline" width="600" height="400">
+            <img src="/public/Images/glass/caroline.jpg" alt="J'ai des regrets mon cher. La faute, c'est à moi. Pardon." width="600" height="400">
         </a>
-        <div class="title">Caroline</div>
+        <div class="title">Phantome</div>
         <div class="desc">Glass blown piece. Sandblasted design. Medusa inspired.</div>
     </div>
 
@@ -132,7 +132,7 @@
             <img src="/public/Images/glass/local_legend_crop.jpg" alt="Local Legend" width="600" height="400">
         </a>
         <div class="title">Local Legend</div>
-        <div class="desc">Ceramic sculpture. Kiln-fired stone clay. Read more about it here. </div>
+        <div class="desc">Ceramic sculpture. Kiln-fired stone clay. Read more <a class="site-links" href="legend.php">here</a>.</div>
     </div>
 
 <!-- No Justice Group -->
@@ -148,7 +148,7 @@
             </a>
 
             <div class="title">No Justice for All...</div>
-            <div class="desc">Ceramic piece, ancient water jug form. History repeats itself.</div>
+            <div class="desc">Ceramic piece, ancient water jug form. History repeats itself. Read more <a class="site-links" href="justice.php">here</a>.</div>
 
         </div>
 
@@ -158,7 +158,7 @@
                 <img src="/public/Images/glass/no_justice_for_all_2_crop.jpg" alt="No Justice - front" width="600" height="400">
             </a>
             <div class="title">No Justice for All...</div>
-            <div class="desc">Ceramic piece, ancient water jug form. History repeats itself.</div>
+            <div class="desc">Ceramic piece, ancient water jug form. History repeats itself. Read more <a class="site-links" href="justice.php">here</a>.</div>
         </div>
 
         <div class="gallery-image">
@@ -167,7 +167,7 @@
     <img src="/public/Images/glass/no_justice_for_all_3_crop.jpg" alt="No Justice - front" width="600" height="400">
 </a>
 <div class="title">No Justice for All...</div>
-<div class="desc">Ceramic piece, ancient water jug form. History repeats itself.</div>
+<div class="desc">Ceramic piece, ancient water jug form. History repeats itself. Read more <a class="site-links" href="justice.php">here</a>.</div>
 </div>
 
     </div>

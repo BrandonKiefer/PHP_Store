@@ -20,17 +20,16 @@
             <ul class="main-menu">
                 <li><a href="index.php">HOME</a></li>
                 <div class="dropdown">
-                <li><a href="products.php">Artwork</a></button>
+                <li><a href="#">Artwork</a></button>
                 <div class="dropdown-content">
-    <a href="glass.php">Glass</a>
-    <a href="#">Ceramics</a>
+    <a href="glass.php">Glass & Ceramics</a>
     <a href="#">Photography</a>
     <a href="video.php">Video</a>
   </div>
 </div>
             </li>
-                <li><a href="#">WORK</a></li>
-                <li><a href="#">MEMBERS+</a></li>
+                <li><a href="about.php">ABOUT</a></li>
+                <li><a href="https://www.brandonkiefer.net" target="_blank">SOFTWARE PORTFOLIO</a></li>
             </ul>
         </div>
         <ul class="menu-member">
