@@ -8,7 +8,7 @@
 
 <div class="index-intro-1">
 <p style="margin-top: 5px">
-Due to unfortunate circumstances in 2023, this piece may be lost to time. I did save a lot of other work made from around this same time period in 2011 but this particular piece still really means a lot to me. That said, I wish I had taken better quality photos of the final angle back when a lot of the other photos on this site were taken. It displays the figure of an old man with his hand out while a meager couple of dollar bills are left lingering in the void around him. This stands in stark contrast to the other side of the piece based on a real photo of a past presidential U.S. administration while they are paraded by dollar bills raining from the sky. Of course, there wouldn't be a contrast between these figures without the iconic image of  lady liberty holding the scales of justice in her blindfold, an image I based on my favorite Metallica album (despite the absence of audible bass on the album)- from which this piece derives its name.
+Due to unfortunate circumstances in 2023, this piece may be lost to time. I did save a lot of other work made from around this same time period in 2011 but this particular piece still really means a lot to me. That said, I wish I had taken better quality photos of the final angle back when a lot of the other photos on this site were taken. The idea of this project was to adopt an old pottery style and make it contemporary with a modern design element. The form itself was directly inspired by images of ancient clay water vessels, in particular the ancient water jugs found around North Africa and West Asia. This work displays the figure of an old man holding his hand out while a meager couple of dollar bills are left lingering in the void around him. This stands in stark contrast to the other side of the piece based on a real photo of a past presidential U.S. administration while the suited figures are paraded by dollar bills raining from the sky. Of course, there wouldn't be a bridge between these 2D elements without the iconic image of lady liberty holding the scales of justice while wearing her blindfold, an image I based on the cover of my favorite Metallica album (despite its absence of audible bass)- from which this piece derives its name.</p>
 
 <div class="justice-images">
 <a target="_blank" href="/public/Images/articles/justice1.jpg">
@@ -20,7 +20,7 @@ Due to unfortunate circumstances in 2023, this piece may be lost to time. I did 
         </a>
 </div>
 
-Here are some other photos that I think provide the fullest context to this piece tying it all together. While this work might still be out there somewhere, I'm not going to get my hopes up. It still deserves to be included with my other body of work and perhaps I may decide to recreate it again in the future.</p>
+<p>These are last remaining photos that provide the fullest context to this piece assuming you've viewed the other sides in the gallery. The design was made using a subtractive method between the time when the piece was glazed and when it was fired in the kiln. While this work might still be out there somewhere, I'm not getting my hopes up. It still deserves to be included with my other body of work and perhaps I may decide to recreate it again in the future.</p>
 
 </div>
 

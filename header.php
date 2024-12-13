@@ -11,6 +11,9 @@
     <title>Kiefer Studios</title>
     <link rel="stylesheet" href="style.css">
     <script src="app.js"></script>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Bungee+Outline&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&family=Rancho&family=Rubik+Broken+Fax&family=Rubik+Dirt&family=Rubik+Lines&family=Rubik+Scribble&display=swap');
+</style>
 </head>
 <body>
 <header>
@@ -18,7 +21,7 @@
         <div class="menu-links">
             <h3>Kiefer Studios</h3>
             <ul class="main-menu">
-                <li><a href="index.php">HOME</a></li>
+                <li><a href="index.php">Home</a></li>
                 <div class="dropdown">
                 <li><a href="#">Artwork</a></button>
                 <div class="dropdown-content">
@@ -28,8 +31,8 @@
   </div>
 </div>
             </li>
-                <li><a href="about.php">ABOUT</a></li>
-                <li><a href="https://www.brandonkiefer.net" target="_blank">SOFTWARE PORTFOLIO</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="https://www.brandonkiefer.net" target="_blank">Software Portfolio</a></li>
             </ul>
         </div>
         <ul class="menu-member">
@@ -41,8 +44,8 @@
                     <?php
                 }else{
                     ?>
-                        <li><a href="signup.php">SIGNUP</a></li>
-                        <li><a href="login.php">LOGIN</a></li>
+                        <li><a href="signup.php">Sign up</a></li>
+                        <li><a href="login.php">Login</a></li>
                    
                     <?php
                 }

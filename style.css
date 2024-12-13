@@ -1,16 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Lines&display=swap');
+
 * {
     margin: 0;
 }
 
-
 a.site-links{
     list-style-type: none;
-    color: black;
+    color: white;
     font-weight: 900;
 }
 
 a.site-links:hover{
-    color: white
+    color: black;
+    background-color: white;
+    transition: background-color 0.4s;
 }
 
 a.site-links:active {
@@ -26,6 +29,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: black;
+    background-image: url("/public/Images/background/libre_xpression_background_color05.jpg");
+    background-attachment: scroll;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -42,17 +48,34 @@ header {
     width: auto;
 }
 
+h2 {
+    font-family: "Rubik Scribble";
+    color: white;
+    font-size:xx-large;
+}
+
+i{
+    color:white;
+}
+
 nav {
     max-width: 1200px;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 10px 20px;
+    font-size: 14px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+  flex-wrap: wrap;
 }
 
 p {
     text-indent: 30px;
+    font-family: "Alatsi", sans-serif;
+    font-size: large;
 }
 
 div.index-intro-1 {
@@ -108,16 +131,6 @@ header {
     display: flex;
     flex-direction: column;
     margin: 0px;
-}
-
-nav {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-end;
 }
 
 
@@ -222,9 +235,10 @@ body {
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #000000;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    color: white;
 }
 
 /* Sign Up Header Styling */
@@ -285,6 +299,7 @@ iframe#youtube {
     /* add some spacing */
     border: 5px solid #997d99;
     /* reduce the border size for a cleaner look */
+    margin-top: 11px;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -576,8 +591,8 @@ background-color: #997d99;
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
-        background-image: url("/public/Images/background/libre_xpression_background_color04.jpg");
-        background-size: 100%; 
+        background-image: url("/public/Images/background/libre_xpression_background_color05.jpg");
+        background-size: cover; 
         background-repeat: no-repeat;
         background-attachment: fixed;
         display: flex;
@@ -664,5 +679,9 @@ background-color: #997d99;
                     flex-wrap:wrap;
                     
     
+    }
+
+    nav{
+        font-size: 17px;
     }
 }

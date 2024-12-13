@@ -48,7 +48,7 @@
             <img src="/public/Images/glass/gaia_crop.jpg" alt="Gaia" width="600" height="400">
         </a>
         <div class="title">Gaia (Crying Woman)</div>
-        <div class="desc">Glass blown form w/ triple color overlay and sandblasted design. Read more about it <a class="site-links" href="gaia.php">here</a>.</div>
+        <div class="desc">Glass blown form w/ triple color overlay & sandblasted design. <aside style="color: white; font-weight: bold;">Read more </aside> <a class="site-links" href="gaia.php">here.</a></div>
     </div>
 
     <div class="gallery-image">
@@ -132,7 +132,7 @@
             <img src="/public/Images/glass/local_legend_crop.jpg" alt="Local Legend" width="600" height="400">
         </a>
         <div class="title">Local Legend</div>
-        <div class="desc">Ceramic sculpture. Kiln-fired stone clay. Read more <a class="site-links" href="legend.php">here</a>.</div>
+        <div class="desc">Ceramic sculpture. Kiln-fired stone clay. <aside style="color: white; font-weight: bold;">Read more <a class="site-links" href="legend.php">here.</a></aside></div>
     </div>
 
 <!-- No Justice Group -->
@@ -148,7 +148,7 @@
             </a>
 
             <div class="title">No Justice for All...</div>
-            <div class="desc">Ceramic piece, ancient water jug form. History repeats itself. Read more <a class="site-links" href="justice.php">here</a>.</div>
+            <div class="desc">Ceramic piece, ancient water jug form. History repeats itself. <aside style="color: white; font-weight: bold;">Read more <a class="site-links" href="justice.php">here.</a></aside></div>
 
         </div>
 
@@ -158,7 +158,7 @@
                 <img src="/public/Images/glass/no_justice_for_all_2_crop.jpg" alt="No Justice - front" width="600" height="400">
             </a>
             <div class="title">No Justice for All...</div>
-            <div class="desc">Ceramic piece, ancient water jug form. History repeats itself. Read more <a class="site-links" href="justice.php">here</a>.</div>
+            <div class="desc">Ceramic piece, ancient water jug form. History repeats itself. <aside style="color: white; font-weight: bold;">Read more <a class="site-links" href="justice.php">here.</a></aside></div>
         </div>
 
         <div class="gallery-image">
@@ -167,7 +167,7 @@
     <img src="/public/Images/glass/no_justice_for_all_3_crop.jpg" alt="No Justice - front" width="600" height="400">
 </a>
 <div class="title">No Justice for All...</div>
-<div class="desc">Ceramic piece, ancient water jug form. History repeats itself. Read more <a class="site-links" href="justice.php">here</a>.</div>
+<div class="desc">Ceramic piece, ancient water jug form. History repeats itself. <aside style="color: white; font-weight: bold;">Read more <a class="site-links" href="justice.php">here.</a></aside></div>
 </div>
 
     </div>
@@ -185,7 +185,7 @@
             <img src="/public/Images/glass/rufus_tile_crop.jpg" alt="Rufus" width="600" height="400">
         </a>
         <div class="title">Rufus</div>
-        <div class="desc">Kiln-formed glass piece</div>
+        <div class="desc">Kiln-formed glass piece. The goodest boy.</div>
     </div>
 
 
