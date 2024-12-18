@@ -58,6 +58,10 @@ i{
     color:white;
 }
 
+i.email{
+    color:black;
+}
+
 nav {
     max-width: 1200px;
     margin: 0 auto;
@@ -334,6 +338,46 @@ div.image-gallery {
     align-items: center;
     margin: auto;
 }
+
+/*2D Gallery Images*/
+
+.\32 D-container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center images horizontally */
+    gap: 20px; /* Space between images */
+    padding: 10px;
+}
+
+.design-image {
+    display: flex;
+    flex-direction: column; /* Title appears below the image */
+    align-items: center;
+    width: 100%; /* Images take up full width */
+}
+
+.design-image img {
+    width: 100%; /* Images fill their container width */
+    max-width: 600px; /* Optional: sets a maximum width for larger screens */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: rounds image corners */
+    object-fit: cover; /* Ensures the image fits without distortion */
+    transition: transform 0.3s ease; /* Animation for hover effect */
+}
+
+.design-image .title {
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: -5px;
+    max-width: 600px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+  }
 
 /*Gallery Images*/
 

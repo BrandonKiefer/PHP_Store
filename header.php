@@ -25,8 +25,8 @@
                 <div class="dropdown">
                 <li><a href="#">Artwork</a></button>
                 <div class="dropdown-content">
+                <a href="2D.php">2D Design</a>
     <a href="glass.php">Glass & Ceramics</a>
-    <a href="photography.php">Photography</a>
     <a href="video.php">Video</a>
   </div>
 </div>

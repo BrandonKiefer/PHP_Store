@@ -11,7 +11,7 @@
              But don't just take my word for it- let's hear from legendary professional wrestling announcer and WWE Hall of Famer, the late great "Mean" Gene Okerlund..</p></br></br>
                 <iframe id="youtube" width="560" height="315" src="https://www.youtube.com/embed/DjcHi41Cuz0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </br>
-<p>On this site you'll find the body of my art portfolio containing images of work in ceramics, glass, photography composition, graphic design, video production, and more. If you want to check out my web applications, you can visit my software engineer portfolio over at: <a class="site-links" target="_blank" href="https://www.brandonkiefer.net">https://www.brandonkiefer.net</a></p> </br>
+<p>On this site you'll find the body of my art portfolio containing images of my work in ceramics, glass, photography composition, graphic design, video production, and more. If you want to check out my web applications, you can visit my software engineer portfolio over at: <a class="site-links" target="_blank" href="https://www.brandonkiefer.net">https://www.brandonkiefer.net</a></p> </br>
             </div>
           
         </div>
